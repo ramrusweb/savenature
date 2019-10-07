@@ -1,0 +1,35 @@
+/*settings*/
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background: #0E9346;
+    height: 60px;
+}
+
+/*logo*/
+.logo {
+    font-size: 24px;
+    color: #28a745;
+
+}
+
+/*buttons*/
+.btn-auth {
+    color: #333333;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.btn-auth:hover {
+    color: #f0f0f0;
+    background: #28a745;
+    border: 1px solid lightgrey;
+    transition: all .5ms ease;
+}
