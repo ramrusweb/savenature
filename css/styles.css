@@ -33,3 +33,24 @@ header {
     border: 1px solid lightgrey;
     transition: all .5ms ease;
 }
+
+footer {
+    color: #fafafa;
+    background: #0E9346;
+    width: 100vw;
+    height: 250px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-menu li {
+    margin-left:8vw;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.hr {
+    width: 100%;
+}
