@@ -20,11 +20,12 @@ header {
 }
 
 /*buttons*/
-.btn-auth {
+.auth-btn button {
     color: #333333;
-    background: transparent;
-    border: 1px solid grey;
+    background: lightgrey;
+    border: 1px solid #999999;
     border-radius: 4px;
+    transition: all .5s ease;
 }
 
 .btn-auth:hover {
@@ -53,4 +54,36 @@ footer {
 
 .hr {
     width: 100%;
+}
+
+/*form-auth*/
+.form-auth {
+    border: 8px solid #e0e0e0;
+    border-radius: 4px;
+    background: #e1e1e1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.form-title {
+    font-size: 2rem;
+    color: #FB565E;
+}
+
+.form-auth button {
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+    font-size: 1.3rem;
+    width: 40%;
+    height: 50px;
+    background: #ebcc34;
+    margin-left: 30%;
+}
+
+.form-auth button:hover {
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    transition: all .4s ease;
+    background: #FBDA3B;
 }

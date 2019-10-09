@@ -10,12 +10,14 @@
             </div>
 
             <div class="offset-md-7 col-md-3 pt-md-1">
-                <button class="btn-auth">
-                    <a href="/accounts/login.php">Войти</a>
-                </button>
-                <button class="btn-auth">
-                    <a href="/accounts/signup.php">Регистрация</a>
-                </button>
+                <div class="auth-btn">
+                    <button>
+                        <a href="/accounts/login.php">Войти</a>
+                    </button>
+                    <button>
+                        <a href="/accounts/signup.php">Регистрация</a>
+                    </button>
+                </div>
             </div>
 
         </div>
