@@ -1,7 +1,8 @@
 <?
-$title = 'Зарегистрироваться';
-require  '../blocks/head.php';
-require '../includes/db.php';
+    header("ContentType: text/html; charset=utf-8");
+    $title = 'Зарегистрироваться';
+    require  '../blocks/head.php';
+    require '../includes/db.php';
 ?>
 
 <div class="container">

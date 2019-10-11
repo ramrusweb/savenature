@@ -1,4 +1,5 @@
 <?
+    header("ContentType: text/html; charset=utf-8");
     $title = 'Вход';
     require  '../blocks/head.php';
     require '../includes/db.php';
